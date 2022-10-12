@@ -1,0 +1,58 @@
+header {
+   color: black;
+   background-color: white;
+   margin: 0em 10em 3em 3.1em;
+   padding: 1em 1em 1em 1em;
+
+}
+
+h1 {
+   font-family: 'Six Caps';
+   font-size: 150%;
+
+}
+
+
+body {
+   background-image: url('images/art-background4.jpg');
+   background-size: cover;
+   font-size: 130%;
+
+
+}
+
+footer {
+   background-color: white;
+   margin: 0em 15em 0em 3em;
+   padding-left: 1em;
+}
+
+#article_title {
+   background-color: white;
+   opacity: 80%;
+   padding-left: 1em;
+   margin: 0em 10em 0em 2em;
+   font-size: 150%;
+
+}
+
+#first {
+   color: black;
+   background-color: white;
+   opacity: 70%;
+   margin: 0em 10em 0em 2em;
+   padding: 1em 4em 1em 1em;
+   overflow: hidden;
+   font-size: 150%;
+
+}
+
+#timeline {
+   position: relative;
+   color: white;
+   background-color: black;
+   opacity: 100%;
+   margin: 1em 1em 1em 0em;
+   padding: 1em 4em 1em 1em;
+   padding-right: 4em;
+}
