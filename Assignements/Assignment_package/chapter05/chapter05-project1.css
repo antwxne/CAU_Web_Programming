@@ -1,46 +1,67 @@
-h1, h2, h3, p, body, div {
+h1,
+h2,
+h3,
+p,
+body,
+div {
    font-family: Tahoma, Helvetica, sans-serif;
    margin: 0;
-   padding: 0;  
+   padding: 0;
+
 }
 
-h1  {  
-   font-size: 1.8em; 
+h1 {
+   font-size: 1.8em;
    margin: 0.25em 0 0.25em 0;
 }
-h2  {   
-   font-size: 1.2em;    
+
+h2 {
+   font-size: 1.2em;
    margin: 0.5em 0 0.25em 0;
 }
-p, body {
+
+p,
+body {
    font-size: 0.9em;
-} 
+}
+
 p {
    margin-bottom: 1em;
-}  
+}
+
 body {
-   background-color: white; 
+   background-color: white;
 }
 
 article {
    background-color: #F5F5F5;
+   margin: 6em;
+}
+
+article div {
+   clear: right;
 
 }
 
-
-
-figure {    
-
+figure {
+   position: relative;
+   float: left;
 }
+
 figcaption {
-   width: 140px;
+   position: relative;
+   width: 143px;
    background-color: black;
-   color:white;
+   color: white;
    height: 20px;
-
+   top: -23px;
+   padding: 0em 0em 0em 0.5em;
 }
-.overlayed {
 
+.overlayed {
+   position: absolute;
+   bottom: 24px;
+   left: 0px;
 }
 
 .entry {
@@ -51,21 +72,37 @@ figcaption {
 .linkbutton {
    background-color: #ff8800;
    color: white;
-   text-decoration: none; 
-   font-size: 0.75em;   
+   text-decoration: none;
+   font-size: 0.75em;
+   float: right;
+   padding: 1em;
+   margin-right: 6em;
 }
 
 
 footer {
    background-color: #474747;
    color: #cacaca;
+   padding: 3em;
 }
-footer h2 { color: #a4a1a1; }   
+
+footer h2 {
+   color: #a4a1a1;
+}
+
 .footer-related {
    border-top: 1pt solid #ff8800;
+   float: left;
+   margin-right: 3em;
 }
-.footer-section{
 
+.footer-section {
    border-top: 1pt solid #ff8800;
 }
-.footer-related img { margin: 3px; }
+
+.footer-related img {
+   margin: 3px;
+   float: none;
+   margin: none;
+   position: none;
+}
