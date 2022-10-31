@@ -1,8 +1,13 @@
 
 h1 { font-size: 3em; font-weight: bold; margin-top: 0;}
 
+html {
+   margin:0em 10em  0em 10em ;
+}
+
 div#topHeaderRow {
    font-size: 0.9em;
+   background-color: black;
 }
 
 .price { 
